@@ -1,0 +1,66 @@
+{
+	'users': {
+		user1: {
+			projects: {
+				project1: true,
+				project2: true
+			}
+		},
+		user2: {},
+		user3: {}
+	},
+
+
+	'projects': {
+		project1: {
+			projectName:****,
+			projectMembers:{
+				user1: true,
+				user2: true
+			},
+			activityLog: [activity1, activity2, ...],
+			lists: {
+				list1: {
+					'card1': true,
+					'card2': true
+				},
+				list2: {},
+				list3: {}
+			}
+		},
+		project2: {},
+		project3: {}
+	},
+
+
+	'activities': {
+		activity1: {
+			activityStatement:'****',
+			timestamp:'****'
+		},
+		activity2: {},
+		activity3: {}
+	},
+
+
+	'cards': {
+		card1: {
+			description:****,
+			TodoIitems : {
+				item1: true,
+				item2: true
+			}	
+		},
+		card2: {},
+		card3: {}
+	},
+
+
+	'TodoItems': {
+		item1:{
+			status: 'done'/'undone'
+		},
+		item2: {},
+		item3: {}
+	}
+}
